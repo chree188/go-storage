@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	alioss "github.com/aliyun/aliyun-oss-go-sdk/oss"
-	"github.com/taokunTeam/go-storage/storage"
+	"github.com/chree188/go-storage/storage"
 )
 
 type Config struct {
