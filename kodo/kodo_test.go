@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/qiniu/go-sdk/v7/sms/bytes"
-	"github.com/taokunTeam/go-storage/storage"
+	"github.com/chree188/go-storage/storage"
 )
 
 var disk storage.Storage
