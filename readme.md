@@ -9,8 +9,8 @@ package main
 
 import (
     "bytes"
-    "github.com/taokunTeam/go-storage/local"
-    "github.com/taokunTeam/go-storage/storage"
+    "github.com/chree188/go-storage/local"
+    "github.com/chree188/go-storage/storage"
 )
 
 func main() {
@@ -58,7 +58,7 @@ func main() {
 ```go
 package main
 
-import "github.com/taokunTeam/go-storage/storage"
+import "github.com/chree188/go-storage/storage"
 
 func main() {
     var customDisk storage.Storage
