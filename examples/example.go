@@ -3,8 +3,8 @@ package main
 import (
 	"bytes"
 
-	"github.com/taokunTeam/go-storage/local"
-	"github.com/taokunTeam/go-storage/storage"
+	"github.com/chree188/go-storage/local"
+	"github.com/chree188/go-storage/storage"
 )
 
 func main() {
