@@ -9,7 +9,7 @@ import (
 
 	"github.com/qiniu/go-sdk/v7/auth/qbox"
 	qiniuStorage "github.com/qiniu/go-sdk/v7/storage"
-	"github.com/taokunTeam/go-storage/storage"
+	"github.com/chree188/go-storage/storage"
 )
 
 type Config struct {
