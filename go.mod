@@ -1,4 +1,4 @@
-module github.com/taokunTeam/go-storage
+module github.com/chree188/go-storage
 
 go 1.18
 
