@@ -8,7 +8,7 @@ import (
 	"time"
 
 	minioStorage "github.com/minio/minio-go/v6"
-	"github.com/taokunTeam/go-storage/storage"
+	"github.com/chree188/go-storage/storage"
 )
 
 type Config struct {
