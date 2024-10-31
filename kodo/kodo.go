@@ -170,8 +170,8 @@ func (k *kodo) Url(key string) string {
 
 	if k.config.IsPrivate {
 		deadline := time.Now().Add(time.Second * 3600).Unix() // 1小时有效期
-		return prefix + qiniuStorage.MakePrivateURL(k.mac, k.config.Domain, key, deadline)
+		return qiniuStorage.MakePrivateURL(k.mac, k.config.Domain, key, deadline)
 	}
 
-	return prefix + qiniuStorage.MakePublicURL(k.config.Domain, key)
+	return qiniuStorage.MakePublicURL(k.config.Domain, key)
 }
