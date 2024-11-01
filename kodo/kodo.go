@@ -97,17 +97,6 @@ func (k *kodo) Get(key string) (io.ReadCloser, error) {
 	return resp.Body, nil
 }
 
-func (k *kodo) GetStyle(key string, style string) (io.ReadCloser, error) {
-	key = storage.NormalizeKey(key)
-
-	resp, err := http.Get(k.Url(key)+style)
-	if err != nil {
-		return nil, err
-	}
-
-	return resp.Body, nil
-}
-
 func (k *kodo) Rename(srcKey string, destKey string) error {
 	srcKey = storage.NormalizeKey(srcKey)
 	destKey = storage.NormalizeKey(destKey)
