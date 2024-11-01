@@ -9,6 +9,7 @@ type Storage interface {
 	Put(key string, r io.Reader, dataLength int64, contentType string) error
 	PutFile(key string, localFile string, contentType string) error
 	Get(key string) (io.ReadCloser, error)
+	GetStyle(key string, style string) (io.ReadCloser, error)
 	Rename(srcKey string, destKey string) error
 	Copy(srcKey string, destKey string) error
 	Exists(key string) (bool, error)
